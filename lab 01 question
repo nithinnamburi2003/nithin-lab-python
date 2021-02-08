@@ -1,0 +1,13 @@
+# Given an input string, when the first and last letters are equal, 
+# print the string with the first and last letters removed. 
+# Otherwise, print the original string.
+
+inputStr = 'test' 
+l=len(inputStr)
+if l==1:
+   print(inputStr)
+else:
+   if inputStr[0]==inputStr[-1]:
+      print(inputStr[1:-1])
+   else:
+      print(inputStr)
