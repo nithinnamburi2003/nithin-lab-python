@@ -1,0 +1,9 @@
+# Given two integers x and y, print their sum. If the sum is more than 100 
+# or the sum is less than 0, print "out of range" instead of the sum.
+
+x = 7 
+y = 1
+if x+y>100 or x+y<0:
+   print("out of range")
+else:
+   print(x+y)
